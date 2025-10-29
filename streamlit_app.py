@@ -1,6 +1,7 @@
-import streamlit as st
+import streamlit, asyncio
 
 async def main():
-    print('')
+    print('asefwafew')
 
-st.title("🎈 My new app")
+asyncio.run(main())
+streamlit.title("🎈 My new app")
