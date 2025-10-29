@@ -1,7 +1,4 @@
 import streamlit, asyncio
 
-async def main():
-    print('asefwafew')
-
-asyncio.run(main())
+print('asefwafew')
 streamlit.title("🎈 My new app")
