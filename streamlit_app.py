@@ -6,4 +6,4 @@ async def main():
         await node.wait()
         
 asyncio.run(main())
-await node.wait()streamlit.title("🎈 My new app")
+streamlit.title("🎈 My new app")
