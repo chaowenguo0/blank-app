@@ -9,4 +9,4 @@ async def main():
     await site.start()
     await asyncio.sleep(math.inf)
 
-uvloop.run(main())
+if __name__ == '__main__': uvloop.run(main())
