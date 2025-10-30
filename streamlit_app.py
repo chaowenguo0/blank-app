@@ -1,4 +1,5 @@
-import streamlit, asyncio, pathlib
+import streamlit, asyncio, pathlib, nest_asyncio
+nest_asyncio.apply()
 
 async def main():
     while True:
